@@ -17,7 +17,7 @@ Session(app)
 scheduler = APScheduler()
 
 
-uri = "mongodb+srv://contact:jVJ3cGZmKC4bfqDe@cluster0.dhcehpa.mongodb.net/?retryWrites=true&w=majority"
+uri = "mongodb+srv://bharat:zrDZNUm3dGePeZQQ@cluster0.6lcmris.mongodb.net/?retryWrites=true&w=majority"
 
 client = MongoClient(uri)
 
@@ -200,7 +200,7 @@ def logout():
     return redirect(url_for("login"))
     
 
-@scheduler.task('interval', id='processData', seconds=60)
+@scheduler.task('interval', id='processData', seconds=30)
 def my_job():
     print("Processing data")
     process_data()

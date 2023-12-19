@@ -10,7 +10,7 @@ install_solc("0.8.0")
 
 
 
-uri = "mongodb+srv://contact:jVJ3cGZmKC4bfqDe@cluster0.dhcehpa.mongodb.net/?retryWrites=true&w=majority"
+uri = "mongodb+srv://bharat:zrDZNUm3dGePeZQQ@cluster0.6lcmris.mongodb.net/?retryWrites=true&w=majority"
 
 client = MongoClient(uri)
 
